@@ -1,0 +1,116 @@
+/*-----------nav bar part -----------------*/
+.nav-bar{
+    background-color: blue;
+    border-radius: 8px;
+}
+.nav-bar-menu ul{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+.nav-bar-items{
+    list-style: none;/*pour suprimer les points*/
+}
+.nav-bar-links{
+    text-decoration: none;/*pour supprimer la line*/
+    color: white;
+    font-size: 20px;
+}
+/*--------------information perso et job title & motivation---------*/
+.info-perso-globale{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    border-radius: 8px;
+}
+.my-img{
+    margin-top: 18px;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.globale{
+    padding: 20px;
+}
+
+.info-perso{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+}
+.info1{
+    
+    background-color: aqua;
+    color: white;
+}
+.job-title{
+    margin: 0 auto;
+    color: white;
+    font-size: x-large;
+}
+.info2{
+    
+    background-color: rgb(183, 219, 52);
+    color: white;
+}
+
+.parg1{
+    width: 100%;
+    margin-top: 20px;
+    background-color: aqua;
+}
+
+.parg2{
+    width: 100%;
+    margin-top: 20px;
+    background-color: aqua;
+}
+
+/*-------------- formation -------------------------*/
+.formation{
+    background-color:blue;
+    margin-top: 5px;
+    border-radius: 8px;
+    
+    padding-bottom: 20px;
+    color:white;
+    
+}
+.formation-title{
+    text-align: center;
+    font-size: xx-large;
+}
+.formation-title p{
+    padding-bottom: 40px;
+    padding-top: 15px;
+    letter-spacing: 15px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mesDiplomes{
+    display: flex;
+    justify-content: space-around;
+}
+.diplom1{
+    width: 20%;
+    display: block;
+    height: 400px;
+    background-color: rgb(183, 219, 52);
+    border-radius: 8px;
+    padding: 10px;
+    padding-top: 40px;
+      
+}
+.dip1{
+    display: flex;
+}
+
+.title-diplom1{
+    padding-left: 10px;
+}
